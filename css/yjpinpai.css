@@ -1,0 +1,51 @@
+.yjPinpai{
+	width: 100%;
+	height: 90px;
+	text-align: center;	
+}
+.yjPinpai strong{
+	font-size: 23px;
+}
+.yjPinpai p{
+	font-size: 18px;
+	color: #c82c15;
+}
+.yjPinpai img{
+	width: 100%;
+}
+.yjImgBox img{
+	width: 100%;
+}
+.yjBannerBox{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	border-bottom: 1px dashed #666;
+	margin-bottom: 20px;
+}
+.yjBannerBox li{
+	width: 45%;
+	height: 50px;
+	line-height: 50px;
+	background: #c92b15;
+	text-align: center;
+	margin: 10px;
+	border-top: 3px solid #03407E;
+	box-sizing: border-box;
+}
+.yjBannerBox li:hover{
+	background: #66312c;
+	border-top: 3px solid #FDD100;
+}
+.yjBannerBox li a{
+	color: #fff;
+	font-size: 20px;
+	/*padding: 0 15px;*/
+}
+.yjBannerBox li a>span{
+	font-size: 15px;
+}
+.yjBannerBox li:nth-child(4){
+	background: none;
+	border: none;
+}

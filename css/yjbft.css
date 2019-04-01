@@ -1,0 +1,393 @@
+.container {
+	width: 100%;
+	/*height: 5000px;*/
+	margin: 87px auto;
+	/*background: pink;*/
+	/*最大宽度*/
+	max-width: 545px;
+	/*最小宽度*/
+	min-width: 350px;
+}
+.yjNav{
+	width: 100%;
+	z-index: 999;
+	background: #4e2825;
+	max-width: 545px;
+	/*最小宽度*/
+	min-width: 350px;
+	position: fixed;
+	top: 0;
+	margin: 0 auto;
+}
+.yjNav ul{
+	display: flex;
+	height: 85px;
+	line-height: 85px;
+}
+.yjNav ul li{
+	width: 60px;	
+	/*align-items: center;*/
+	/*background: red;*/
+}
+.yjNav ul li:nth-child(2){
+	flex: 0.72;
+}
+.yjNav ul li:nth-child(1){
+	padding-left: 20px;
+}
+.yjPic{
+	position: relative;
+	/*display: flex;*/
+}
+.yjPic>img{
+	width: 100%;
+}
+.yjPic ul{
+	display: flex;
+	position: absolute;
+	bottom: 20px;
+	left: 50%;
+}
+.yjPic ul li{
+	width: 10px;
+	height: 10px;
+	background: #fff;
+	border-radius: 50%;
+	margin: 0 5px;
+}
+/*固定*/
+.yjGudin{
+	position: fixed;
+	right: 26%;
+	bottom: 20%;
+	z-index: 999;
+}
+.yjGudin img{
+	max-width: 85%;
+	min-width: 10%;
+}
+/*广告*/
+.yjBanner{
+	background: #f5f5f5;
+	height: 320px;
+}
+.yjBanner ul{
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+	/*line-height: 30px;*/
+	text-align: center;	
+}
+.yjBanner ul li{
+	/*flex: 1;*/
+	/*display: block;*/
+	width: 25%;	
+	height: 150px;
+	margin-top: 10px;
+	/*flex-wrap: wrap;*/
+}
+.yjBanner ul li a{
+	/*display: block;*/
+	/*width: 50%;*/
+	font-size: 20px;
+	color: #000;
+	/*line-height: 30px;*/
+	/*text-align: center;*/
+	/*display: block;*/
+}
+.yjBanner ul li a>img{
+	width: 80%;
+}
+.yjSeemore{
+	width: 100%;
+	height: 70px;
+	background: url(../img/fot_tt.jpg) no-repeat;
+}
+.yjSeemore dl{
+	/*height: 20px;*/
+	width: 100%;
+	height: 70px;
+	display: flex;
+	align-items: center;
+	font-size: 25px;
+}
+.yjSeemore dl dt{
+	margin-left: 30px;
+}
+.yjSeemore dl dt span{
+	font-size: 20px;
+	margin-left: 5px;
+	color: #666;
+}
+.yjSeemore dl dd{
+	margin-left: 120px;
+	width: 130px;
+	height: 30px;
+	background: #000;
+	line-height: 30px;
+	text-align: center;
+}
+.yjSeemore dl dd a{
+	color: #fff;
+}
+.yjBanners{
+	height: 480px;
+	background: #666;
+}
+.yjBannersTop ul{
+	display: flex;
+	height: 55px;
+	background: #03407e;
+	text-align: center;
+	line-height: 55px;
+}
+.yjBannersTop ul li{
+	width: 25%;
+	font-size: 20px;
+	box-sizing: border-box;
+	border-right: 1px solid #fff;
+}
+.yjBannersTop ul li:hover{
+	background: #c92b15;
+}
+.yjBannersTop ul li:nth-child(4){
+	border: none;
+}
+.yjBannersTop ul li a{
+	color: #fff;
+}
+.yjBannersBot{
+	display: flex;
+	text-align: center;
+	justify-content: space-around;
+}
+.yjBannersBot>a{
+	display: block;
+	width: 45%;
+	height: 385px;
+	background: #E5E5E5;
+	margin-top: 20px;
+}
+.yjBannersBot>a>img{
+	width: 100%;
+}
+.yjBannersBot>a>p{
+	font-size: 18px;
+	color: #000;
+	line-height: 40px;
+	font-weight: 700;
+}
+.yjNavbox{
+	margin-right: 50px;
+}
+.yjBannersBots{
+	width: 100%;
+	/*display: flex;*/
+	text-align: center;
+	/*justify-content: space-around;*/
+}
+.yjBannersBots>a{
+	display: block;
+	width: 100%;
+	/*margin-top: -50px;*/
+	/*position: relative;*/
+	/*overflow: hidden;*/	
+	/*height: 400px;*/
+	/*background: red;*/
+}
+.yjBannersBots>a.yjTop{
+	/*display: block;*/
+	margin-top: -30px;
+}
+.yjBannersBots>p{
+	display: block;
+	color: #fff;
+	font-size: 20px;
+	font-weight: 700;
+	width: 100%;
+	height: 50px;
+	position: relative;
+	top:-50px;
+	background: #3E3E3E;
+	opacity: 0.8;
+	line-height: 50px;
+}
+.yjBannersBots>a>img{
+	width: 100%;
+}
+.yjJiameng{
+	margin-right: -40px;
+}
+.yjJiamengs{
+	margin-right: 40px;
+}
+.yjBannersBotss{
+	width: 100%;
+	display: flex;
+	justify-content: space-around;
+}
+.yjBannersBotss>li{
+	width: 45%;
+	padding: 5px;
+	text-align: center;	
+	/*height: 500px;*/
+	/*background: #fff;*/	
+	margin-top: 20px;
+	border: 2px solid #ff;
+	box-sizing: border-box;
+	/*display: block;*/
+}
+.yjBannersBotss>li>a{
+	display: block;
+	width: 100%;
+	padding: 5px;
+	background: #fff;
+	border-radius: 5px;
+	/*height: 385px;*/
+	/*border: 2px solid #ff;*/
+}
+.yjBannersBotss>li>a>img{
+	display: block;
+	width: 100%;
+	border: 2px solid #ff;
+}
+.yjBannersBotss>li>p{
+	width: 104%;
+	height: 35px;
+	line-height: 35px;
+	font-size: 20px;
+	background: #fff;
+	margin-top: 20px;
+}
+.yjBOX{
+	padding-bottom: 5%;
+	background: #555;
+}
+.yjItemsTop{
+	width: 100%;
+	height: 225px;
+	/*background: red;*/
+	border-bottom: 1px dashed #666;
+	/*background: #fff;*/
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+}
+.yjLeft{
+	width: 48%;
+	height: 180px;
+	/*flex: 1;*/
+	text-align: center;
+	background: #fff;
+	border: 1px solid #ccc;
+	box-sizing: border-box;
+	padding: 5px;
+}
+.yjLeft>a>img{
+	width: 98%;
+	/*flex: 1;*/
+	/*justify-content: space-around;*/
+	/*flex: 1;*/
+}
+.yjRight{
+	width: 48%;
+	height: 180px;
+	/*flex: 1;*/
+	/*background: #666;*/
+}
+.yjRight strong{
+	display: block;
+	font-size: 18px;
+}
+.yjRight span{
+	font-size: 14px;
+	line-height: 25px;
+	color: #666;
+}
+.yjNaicha>img{
+	height: 100%;
+}
+.yjLogo{
+	width: 100%;
+	margin-top: -5px;
+}
+.yjLogo>img{
+	width: 100%;
+}
+.yjFooter{
+	width: 100%;
+	height: 340px;
+	background: #783431;
+	/*display: flex;*/
+}
+.yjFooter p{
+	color: #fff;
+	font-size: 25px;
+	padding-left: 5px;
+	line-height: 40px;
+	
+}
+.yjFooter input[type="text"]{
+	width: 46%;
+	height: 50px;
+	margin-left: 5px;
+	border-radius: 10px;
+	text-indent: 0.5em;
+}
+.yjTextarea{
+	/*margin-top: 20px;*/
+	margin: 20px auto;
+	text-align: center;
+	/*height: 80px;*/
+}
+textarea{
+	border-radius: 5px;
+}
+#yjbtn{
+	display: flex;
+	width: 99%;
+	/*background: RED;*/
+	justify-content: flex-end;
+}
+button{
+	width: 165px;
+	height: 40px;
+	background: #fdd100;
+	font-size: 25px;
+	border-radius: 5px;
+	
+}
+.yjFooter span{
+	display: block;
+	width: 100%;
+	height: 40px;
+	line-height: 40px;
+	font-size: 17px;
+	background: #461d1b;
+	color: #fff;
+	text-align: center;
+	margin-top: 50px;
+}
+.yjDibu{
+	width: 100%;
+	max-width: 545px;
+	/*最小宽度*/
+	min-width: 350px;
+	height: 14%;
+	position: fixed;
+	bottom: 0px;
+	background: #482523;
+}
+.yjDibu>ul>li{
+	border-right: 1px solid #666;
+	box-sizing: border-box;
+}
+.yjDibu>ul>li:nth-child(4){
+	border: none;
+}
+.yjDibu>ul>li>a{
+	color: #fff;
+}
+.yjDibu>ul>li>a>img{
+	width: 50%;
+}
