@@ -1,0 +1,32 @@
+.yjjiejue img{
+	width: 100%;
+}
+.yjYijian{
+	width: 100%;
+	/*height: 60px;*/
+	/*border-bottom: 1px dashed #666;*/
+	display: flex;
+	margin-bottom: 10px;
+	justify-content: center;
+}
+.yjYijian a{
+	display: block;
+	width: 500px;
+	height: 50px;
+	line-height: 50px;
+	text-align: center;
+	font-size: 1.9vw;
+	font-weight: 700;
+	color: #000;
+	background: yellow;
+	border-radius: 25px;
+}
+#allmap{
+	width: 100%;
+	height: 600px;
+	border: 2px solid #011F3C;
+	overflow: hidden;
+	margin: 10px auto;
+	background: red;
+	font-family: "微软雅黑";
+}
