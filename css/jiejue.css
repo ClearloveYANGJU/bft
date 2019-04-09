@@ -1,0 +1,69 @@
+.yjHuida p:nth-child(1){
+	color: #03407E;
+	font-size: 1.5vw;
+	font-weight: 700;
+	text-align: center;
+}
+.yjHuida p:nth-child(2){
+	font-size: 1vw;
+	text-align: center;
+	line-height: 25px;
+	margin-bottom: 30px;
+}
+.yjHuida p{
+	font-size: 1vw;
+	text-indent: 2em;
+	line-height: 20px;
+}
+.yjHuida p:nth-child(5),
+.yjHuida p:nth-child(6),
+.yjHuida p:nth-child(7),
+.yjHuida p:nth-child(8),
+.yjHuida p:nth-child(9),
+.yjHuida p:nth-child(10),
+.yjHuida p:nth-child(11),
+.yjHuida p:nth-child(12){
+	margin-bottom: 25px;
+}
+.yjFanhui{
+	display: flex;
+	margin-top: 25px;
+	margin-bottom: 10px;
+	justify-content: space-around;
+}
+.yjFanhui li{
+	/*display: flex;*/
+	width: 120px;
+	height: 35px;
+}
+.yjFanhui li a{
+	color: #fff;
+	font-size: 1.5vw;
+	
+}
+.yjFanhui li:nth-child(1){
+	/*width: 150px;*/
+	height: 35px;
+	background: #333333;
+	/*flex: 1;*/
+	text-align: center;
+	line-height: 35px;
+	border-radius: 5px;
+}
+.yjFanhui li:nth-child(1) a{
+	
+}
+.yjFanhui li:nth-child(2),
+.yjFanhui li:nth-child(3),
+.yjFanhui li:nth-child(4){
+	/*flex: 1;*/
+	text-align: center;
+	line-height: 35px;
+	border-radius: 5px;
+}
+.yjFanhui li:nth-child(3){
+	background: #666666;
+}
+.yjFanhui li:nth-child(4){
+	background: #FF0000;
+}
